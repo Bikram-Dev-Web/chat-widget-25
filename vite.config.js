@@ -16,13 +16,6 @@ export default defineConfig({
       fileName: () => 'chat-widget.js',
       
     },
-    rollupOptions: {
-      output: {
-        globals: {
-          react: 'React',
-          'react-dom': 'ReactDOM',
-        },
-      },
-    },
+
   },
 })
