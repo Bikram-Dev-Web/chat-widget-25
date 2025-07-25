@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import ChatWidget from './components/chat-widget.jsx'
+import "/src/App.css";
+import './index.css'
 
 window.ChatWidget = {
   init: (options = {}) => {
